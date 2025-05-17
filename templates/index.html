@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optimal BST Visualizer</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Optimal Binary Search Tree Visualizer</h1>
+        
+        <!-- Input fields for keys and frequencies -->
+        <div class="form-container">
+            <label for="keys">Keys (comma-separated):</label>
+            <input type="text" id="keys" placeholder="e.g., 10, 20, 30, 40">
+            
+            <label for="freq">Frequencies (comma-separated):</label>
+            <input type="text" id="freq" placeholder="e.g., 3, 2, 4, 1">
+            
+            <button id="generate-tree-btn">Generate Tree</button>
+        </div>
+
+        <!-- Displaying the Optimal Cost -->
+        <div id="optimal-cost-container">
+            <strong>Optimal Cost: </strong>
+            <span id="optimal-cost"></span>
+        </div>
+
+        <!-- Search Section -->
+        <div class="search-container">
+            <label for="search-key">Search Key:</label>
+            <input type="text" id="search-key" placeholder="Enter key to search">
+            <button id="search-key-btn">Search</button>
+            <div id="search-result"></div>
+        </div>
+
+        <!-- Tree Container -->
+        <div id="tree-container"></div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

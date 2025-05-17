@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.form-container {
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: left; /* Align the labels and inputs to the left */
+    width: 80%; /* Control the width of the form */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%; /* Ensure inputs fill the form container */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#optimal-cost-container {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+#search-result {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#tree-container {
+    margin-top: 30px;
+}
+
+/* New CSS for aligning the search section */
+#search-container {
+    margin-top: 30px;
+    display: inline-block;
+    text-align: left;
+    width: 80%;
+}
+
+/* Center-align the generate tree and search buttons */
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#generate-tree-btn {
+    margin-bottom: 20px; /* Add space between the two buttons */
+}
