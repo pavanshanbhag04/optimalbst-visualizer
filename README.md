@@ -15,7 +15,7 @@ Built using Flask for backend and HTML/CSS/JavaScript + D3.js for visualization.
 
 ✅ Clean and intuitive user interface.
 
---
+---
 ## 📸 Demo Screenshot
 ![image](https://github.com/user-attachments/assets/7965fb04-efa0-4508-acd7-9d97e4fc6f47)
 ![image](https://github.com/user-attachments/assets/4eea2816-adfc-43ee-bfae-9d97cf8a3972)
