@@ -30,6 +30,7 @@ An Optimal Binary Search Tree is a BST that minimizes the expected search cost, 
 
 ### 📦 Prerequisites
 Python 3.x
+
 Flask
 
 ### 🔧 Setup Steps
